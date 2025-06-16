@@ -3,7 +3,7 @@ import bg from '../assets/authBg.jpeg'
 import { IoIosEye } from "react-icons/io";
 import { IoIosEyeOff } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-import { userDataContex } from '../contex/userContex';
+import { userDataContex } from '../contex/UserContex';
 import axios from "axios"
 
 function SignUp() {

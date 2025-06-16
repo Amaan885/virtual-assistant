@@ -8,7 +8,7 @@ import image5 from "../assets/image5.jpeg"
 import image6 from "../assets/image6.jpeg"
 import image7 from "../assets/image7.jpeg"
 import { BsImageFill } from "react-icons/bs";
-import { userDataContex } from '../contex/userContex'
+import { userDataContex } from '../contex/UserContex'
 import { useNavigate } from 'react-router-dom'
 import { IoArrowBackOutline } from "react-icons/io5";
 

@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { userDataContex } from '../contex/userContex'
+import { userDataContex } from '../contex/UserContex'
 import axios from "axios"
 import { IoArrowBackOutline } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';

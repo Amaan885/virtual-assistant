@@ -3,7 +3,7 @@ import React, { createContext, useEffect, useState } from 'react'
 export const userDataContex = createContext()
 
 function UserContex({ children }) {
-    const serverUrl = "http://localhost:8000"
+    const serverUrl = "https://virtual-assistant-backend-67tf.onrender.com"
     const [userData, setUserData] = useState(null)
     const [frontendImage, setFrontedImage] = useState(null)
     const [backendImage, setBackendImage] = useState(null)

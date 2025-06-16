@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useContext } from 'react'
-import { userDataContex } from '../contex/userContex'
+import { userDataContex } from '../contex/UserContex'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import aiImg from "../assets/ai.gif"
